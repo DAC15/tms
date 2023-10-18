@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tms/api-auth": ["libs/api-auth/src/index.ts"],
+      "@tms/api-config": ["libs/api-config/src/index.ts"],
+      "@tms/api-database": ["libs/api-database/src/index.ts"],
+      "@tms/shared-config": ["libs/shared-config/src/index.ts"],
+      "@tms/shared-models": ["libs/shared-models/src/index.ts"],
+      "@tms/shared-utils": ["libs/shared-utils/src/index.ts"],
+      "@tms/ui-auth": ["libs/ui-auth/src/index.ts"],
+      "@tms/ui-components": ["libs/ui-components/src/index.ts"],
+      "@tms/ui-config": ["libs/ui-config/src/index.ts"],
+      "@tms/ui-providers": ["libs/ui-providers/src/index.ts"],
+      "@tms/ui-utils": ["libs/ui-utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
